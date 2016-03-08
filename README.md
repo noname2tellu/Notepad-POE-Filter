@@ -24,7 +24,9 @@ Some typos and incorrect capitalization of words have a red background. This doe
 If a word receives green coloring (like a comment) then the word was not recognized.
 
 -NOTE!-
+
 If a word is colored incorrectly in a 'comment' block in the filter just place parenthesis around it!
+
 Quality -> (Quality)
 
 Enjoy!
