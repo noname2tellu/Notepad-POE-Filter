@@ -5,11 +5,19 @@ Just download the file, make sure it is an .xml file, and then import it into No
 
 To import the file to Notepad++ : Open Notepad++ > Language > Define your language... > Import
 
+----------------------------
+
 Comments are green text.
+
 BaseType items are blue with a light blue background.
+
 Class items are dark yellow with a light yellow background.
+
 Color related stuff (text / border / background) are orange.
+
 Conditions are blue text.
+
+----------------------------
 
 Some typos and incorrect capitalization of words have a red background. This does not work with words found after BaseType or Class (due to how the highlight is handled now).
 
