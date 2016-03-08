@@ -1,11 +1,9 @@
 # Notepad-POE-Filter
 A syntax highlight for Path of Exile loot filter.
 
-Just download the file, change the extension from .txt to .xml and then import it into Notepad++.
+Just download the file, make sure it is an .xml file, and then import it into Notepad++.
 
 To import the file to Notepad++ : Open Notepad++ > Language > Define your language... > Import
-
-Note: Change the ".filter" in the Ext box to "filter" (remove the '.') so that the highlight is applied when the filter files are opened with notepad++.
 
 Comments are green text with grey background.
 BaseType items are blue italicized text.
