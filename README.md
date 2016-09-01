@@ -15,17 +15,17 @@ Class items are dark yellow with a light yellow background.
 
 Color related stuff (text / border / background) are orange.
 
-Conditions are blue text.
+Conditions are light blue.
+
+Numbers are dark blue.
 
 ----------------------------
 
 Some typos and incorrect capitalization of words have a red background. This does not work with words found after BaseType or Class (due to how the highlight is handled now).
 
-If a word receives green coloring (like a comment) then the word was not recognized.
-
 -NOTE!-
 
-If a word is colored incorrectly in a 'comment' block in the filter just place parenthesis around it!
+If a word is colored incorrectly in a 'comment' block in the filter just place parenthesis around it! Hopefully this doesn't happen anymore on the latest version...
 
 Quality -> (Quality)
 
@@ -33,10 +33,6 @@ Enjoy!
 
 Only small problems:
 
-The way the highlight is handled is a little 'hackish' in a way.
+BaseType and Class are delimiters now (instead of 'comments' in the old version). It seems to work the same way as before, but now comment lines are real comment lines (instead of colored normal text)! Having actual comment lines should prevent odd coloring in of text when you are trying to type a comment line out.
 
-BaseType and Class are considered 'comments' according to the rules of the syntax highlighting (that is why they highlight their entire line no matter what is in them) which means the syntax highlight stuff doesn't mess with stuff after them (old filter could highlight some incorrect spelled basetypes and classes).
-
-So regardless of what is after BaseType it gets the BaseType highlight and the same goes for Class.
-
-To make it appear that comments in the filter (lines that start with #) are 'comments' the default style is just green text.
+Regardless of what is after BaseType it gets the BaseType highlight and the same goes for Class (the coloring goes until the end of the line).
